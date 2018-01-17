@@ -1,13 +1,12 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int i,n,sum=0;
 printf("enter the  number");
 scanf("%d",&n);
-for(i=1;i<n;i++)
+for(i=1;i<=n;i++)
 {
 sum=sum+i;
 }
-printf("sum of n natural number is:",sum);
-return 0;
+printf("sum of %d  natural number is=%d",n,sum);
 }
